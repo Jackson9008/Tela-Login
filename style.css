@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    background-image: url("img/binary-code-3814663_1920.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +11,6 @@ body {
 
 .login-container {
     background: white;
-    background-image: url("img/binary-code-3814663_1920.jpg");
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
