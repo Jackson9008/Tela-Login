@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +8,42 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form id="loginForm">
-            <div class="input-group">
-                <label for="username">Usuário</label>
-                <input type="text" id="username" name="username" required>
+    <main class="container">
+
+        <form>           
+            <h1>Atlas Host</h1>
+        
+            <div class="input-box">
+                <!--<label for="Usuário ou E-mail">Usuário ou E-mail</label> -->              
+                <input placeholder="Digite aqui seu usuário ou e-mail" type="text" name="e-mail" required>
                 <i class="bx bxs-user"></i>
             </div>
-            <div class="input-group">
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password" required>
+
+            <div class="input-box"> 
+                <!--<label for="Senha">Senha</label>-->
+                <input placeholder="Digite aqui sua senha" type="password" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
-            <button type="submit">Entrar</button>
-            <div>
-                <label for="">
+
+            <div class="remember-forgot">
+                <label>
                 <input type="checkbox">
                 Lembrar Senha
             </label>
-            <a href="Esqueci senha"></a>
+
+            <a href="https://www.jacksonsousa.com.br/">Esqueci Senha</a>
             </div>
-            <div>
-                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+
+            <button type="submit" class="login">Entrar</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="https://www.jacksonsousa.com.br/">Cadastre-se</a></p>
             </div>
         </form>
-    </div>
+    </main>
     <!-- script.js removido pois não existe no projeto -->
 </body>
+
 </html>
- 
